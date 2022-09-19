@@ -18,7 +18,6 @@ public class Deck : MonoBehaviour
     private void Awake()
     {    
         InitCardValues();        
-
     }
 
     private void Start()
@@ -29,6 +28,7 @@ public class Deck : MonoBehaviour
 
     private void InitCardValues()
     {
+        
         /*TODO:
          * Asignar un valor a cada una de las 52 cartas del atributo "values".
          * En principio, la posición de cada valor se deberá corresponder con la posición de faces. 
